@@ -1,9 +1,11 @@
 <script >
 import CounterDisplay from './components/CounterDisplay.vue'
+import WaveComponent from './components/WaveComponent.vue';
 export default {
   name: 'App',
   components: {
-    CounterDisplay
+    CounterDisplay,
+    WaveComponent
   },
   data() {
     return {
@@ -15,6 +17,7 @@ export default {
 
 <template>
   <CounterDisplay></CounterDisplay>
+  <WaveComponent></WaveComponent>
 </template>
 
 <style ></style>
